@@ -1,0 +1,8 @@
+This script describes similarities between the KEGG annotations of multiple genomes.  For example, genome A and B are run through KEGG.  Using those KEGG results, this script tells you...
+  * that A and B both have gene X, but only A has gene Y.  
+  * that gene X is located in the same position in both A and B (unimplemented)
+
+What is KEGG?
+
+Kyoto Encyclopedia of Genes and Genomes
+http://en.wikipedia.org/wiki/KEGG

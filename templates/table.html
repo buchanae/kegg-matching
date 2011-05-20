@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <table>
+    <thead>
+      <th>K number</th>
+      <th>Genomes</th>
+      <th>Genes</th>
+    </thead>
+      
+    <tbody>
+    {% for r in rows %}
+      <tr>
+        <td>{{ r[0] }}</td>
+        <td>{{ r[1] }}</td>
+        <td>{{ r[2] }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
